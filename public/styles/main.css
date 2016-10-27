@@ -1,0 +1,104 @@
+/*colors for containers*/
+.purplish  { background-color: #5d4a77; }
+.cyanish   { background-color: #31CEDF; }
+.pinkish   { background-color: #FF6795; }
+.greenish  { background-color: #3CE697; }
+.orangish  { background-color: #FFB99F; }
+.magentish { background-color: #FF1075; }
+.grayish   { background-color: #B3B3B3; }
+.whitish   { background-color: #ffffff; }
+
+.sidebar-panels {
+  min-width: 258px;
+  height: 100px;
+  border-bottom: 2px solid #fff;
+}
+
+.social-panels {
+  min-width: 258px;
+  height: 100px;
+  border-bottom: 2px solid #fff;
+}
+
+.sidebar-panels:hover {
+  opacity: 0.8;
+}
+.sidebar-text {
+  font-size: 16px;
+  color: #ffffff;
+  position: relative;
+  top: 45%;
+  left: 25%;
+}
+
+/*CLOCK*/
+.sidebar-panels-clock {
+  min-width: 258px;
+  height: 250px;
+  border: 1px solid #fff;
+}
+.clock {
+  text-align: center;
+  position: relative;
+  top: 50%; left: 50%;
+  width: 12rem; height: 12rem;
+  margin: -6rem 0 0 -6rem;
+  border-radius: 50%;
+  border: 0.2rem solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.hand {
+  position: absolute;
+  background-color: white;
+
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease;
+  -o-transition: -o-transform 0.5s ease;
+  transition: transform 0.5s ease;
+
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+.hour {
+  height: 20%; top: 30%;
+  left: 50%; width: 3px; margin-left: -1.5px;
+}
+.minute {
+  height: 30%; top: 20%;
+  left: 50%; width: 2px; margin-left: -1px;
+}
+.second {
+  height: 45%; top: 5%;
+  left: 50%; width: 1px; margin-left: -0.5px;
+}
+
+/* Image Cycler*/
+#imageHolder {
+  position: fixed;
+  max-height: 250px;
+  min-width: 258px;
+}
+
+/*  HERO IMAGE   */
+
+#hero-image {
+  background: url(public/images/StockSnap_Z9ID2525JR.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Containers */
+#hero { height: 600px;}
+
+#portfolio { height: 600px;}
+#portfolio-content { min-height: 100%; overflow: none;}
+.portfolio-styles {font-size: 20px;}
+#about { height: 600px;}
+
+#contact { height: 600px;}
